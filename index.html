@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <div class="nav-menu">
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>Destinations</li></a>
+                    <a href="#"><li>Search</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="welcome">
+            <div class="welcome-text">
+                <span class="text">
+                    <span class="text1">Nature, Photography</span>And<span class="text1">Storytelling</span>
+                    <span class="text2">All in one Place.</span>
+                <span>
+                <div class="logo"></div>
+            </div>
+            <video src="images/video.mp4" muted autoplay loop height="100%" width="100%"></video>
+        </div>
+    </header>
+    <main>
+        <!-- Highlights -->
+        <div class="highlights">
+            <img src="images/pink2-removebg-preview.png" alt="pantbrush" class="heading-bg1">
+            <span id="highlight-heading1">The Highlights</span>
+            <div class="highlight-row">
+                <div class="highlight-col">
+                    <div class="highlight-details">
+                        <a href="#"><img src="images/mayan-ruins-mexico-1.jpg" alt="Mayan Ruins, Mexico">
+                        <div>
+                            <span class="highlight-category" style="color: #767E0F;">Mexico</span>
+                            <span class="highlight-heading">Discover Mesoamerica Through These Aztec & Mayan Ruins In Mexico</span>
+                            <span class="highlight-date">30 Apr 2021</span>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="highlight-col">
+                    <div class="highlight-details">
+                        <a href="#"><img src="images/things-to-do-in-marrakech-8.jpg" alt="Marrakesh, Morocco">
+                        <div>
+                            <span class="highlight-category" style="color: #E46F44;">Morocco</span>
+                            <span class="highlight-heading">The Most Captivating And Interesting Things to do in Marrakesh</span>
+                            <span class="highlight-date">29 Apr 2021</span>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="highlight-col">
+                    <div class="highlight-details">
+                        <a href="#"><img src="images/things-to-do-istanbul-1.jpg" alt="Istanbul">
+                        <div>
+                            <span class="highlight-category" style="color: #0A3150;">Istanbul</span>
+                            <span class="highlight-heading">Discover An Intriguing City Through These 20 Things To Do In Istanbul</span>
+                            <span class="highlight-date">18 Apr 2021</span>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="highlight-col">
+                    <div class="highlight-details">
+                        <a href="#"><img src="images/atlas-mountain-morocco-3.jpg" alt="High Atlas Mountains, Morocco">
+                        <div>
+                            <span class="highlight-category" style="color: #E46F44;">Morocco</span>
+                            <span class="highlight-heading">Complete Guide To Exploring Morocco's High Atlas Mountains</span>
+                            <span class="highlight-date">13 Apr 2021</span>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Highlights -->
+        <!-- Top Destinations -->
+        <div class="top-destination">
+            <img src="images/blue-watercolor-brush-stroke-3-4.png" alt="pantbrush" class="heading-bg2">
+            <span id="highlight-heading2">Some Of Our Top Destinations</span>
+            <div class="photo-gallery">
+                <img src="../images/uk-travel-blog-awr-1.jpg" alt="" id="bg-img">
+                <div id="display-photo">
+                    <div id="demo-details">
+                        <span class="demo-heading">Photo Gallery</span>
+                        <span>(Hover over an image to have a full display)</span>
+                    </div>
+                    <div id="photo-heading">
+                        Heading will be here.
+                    </div>
+                </div>
+            </div>
+            <div class="destinations-row">
+                <div class="destinations-col">
+                    <img src="images/tape-home.png" alt="tape" class="tape1">
+                    <img src="../images/namibia.jpg" class="img1" alt="Namibia, Where The Dessert Meets The Sea" onmouseover = "upDate(this)" onmouseout = "unDo()">
+                </div>
+                <div class="destinations-col">
+                    <img src="images/tape-home.png" alt="tape" class="tape2">
+                    <img src="../images/turkey.jpg" class="img2" alt="Turkey, A Bridge Between Europe And Asia" onmouseover = "upDate(this)" onmouseout = "unDo()">
+                </div>
+                <div class="destinations-col">
+                    <img src="images/tape-home.png" alt="tape" class="tape1">
+                    <img src="../images/iceland.jpg" class="img1" alt="Iceland, The Most Incredible Island To Visit" onmouseover = "upDate(this)" onmouseout = "unDo()">
+                </div>
+                <div class="destinations-col">
+                    <img src="images/tape-home.png" alt="tape" class="tape2">
+                    <img src="../images/wildlife.jpg" class="img2" alt="South Africa, Encounter With The Wildlife" onmouseover = "upDate(this)" onmouseout = "unDo()">
+                </div>
+                <div class="destinations-col">
+                    <img src="images/tape-home.png" alt="tape" class="tape1">
+                    <img src="../images/morocco-02.jpg" class="img1" alt="Morocco, Mountainous Country of Western North Africa" onmouseover = "upDate(this)" onmouseout = "unDo()">
+                </div>
+                <div class="destinations-col">
+                    <img src="images/tape-home.png" alt="tape" class="tape2">
+                    <img src="../images/anywhere-we-roam-cuba.jpg" class="img2" alt="Cuba, An Island Country in the Caribbean" onmouseover = "upDate(this)" onmouseout = "unDo()">
+                </div>
+            </div>
+        </div>
+        <!-- End of Top Destinations -->
+        <!-- About Us -->
+        <div class="aboutUs">
+            <div class="about-row">
+                <div class="about-col">
+                    <div class="about-img">
+                        <img src="images/aboutUs.jpeg" alt="About Us" class="image1">
+                        <img src="images/tape-home.png" alt="tape" class="tape">
+                    </div>
+                    <img src="images/postcard-divider@2x.png" alt="divider" class="divider">
+                </div>
+                <div class="about-col">
+                    <img src="images/stamp1-removebg-preview.png" alt="Stamp1" class="stamp">
+                    <div class="about-details">
+                        <img src="images/black-removebg-preview.png" alt="" class="heading-bg1">
+                        <span class="about-heading">About Us</span>
+                        <span class="about-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim quidem commodi debitis assumenda? Magnam eveniet, aliquam odio minus voluptate officiis omnis voluptatem iste. Nobis maiores voluptate unde sunt culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro facilis quae dicta minima nobis alias saepe tenetur repellat! Ab veritatis dolor veniam, mollitia fugit deleniti! Officia, nam aspernatur! Necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </span>
+                        <a href="#" class="about-button">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of About Us -->
+        <!-- Bucket List -->
+        <div class="bucket">
+            <img src="images/yellow-removebg-preview.png" alt="pantbrush" class="heading-bg2">
+            <span id="highlight-heading2">Bucket List Experiences</span>
+            <div class="bucket-row">
+                <div class="bucket-col1">
+                    <img src="images/african-safari.png" alt="African Safari">
+                    <div class="bucket-detail1">
+                        <span class="bucket-heading">African Safari</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="bucket-col2">
+                    <img src="images/things-to-do-lisbon-2021.jpg" alt="European Summer">
+                    <div class="bucket-detail2">
+                        <span class="bucket-heading">A Summer In Europe</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bucket-row">
+                <div class="bucket-col2">
+                    <img src="images/scafell-pike-corridor-route-15.jpg" alt="Hiking In Lake District">
+                    <div class="bucket-detail2">
+                        <span class="bucket-heading">Hiking In Lake District</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="bucket-col1">
+                    <img src="images/tropical.jpg" alt="Tropical Summer">
+                    <div class="bucket-detail1">
+                        <span class="bucket-heading">A Tropical Summer</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bucket-row">
+                <div class="bucket-col1">
+                    <img src="images/the-alps-1.jpg" alt="African Safari">
+                    <div class="bucket-detail1">
+                        <span class="bucket-heading">The Alps</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="bucket-col2">
+                    <img src="images/things-to-do-in-mexico-3.jpg" alt="Mexico">
+                    <div class="bucket-detail2">
+                        <span class="bucket-heading">A Road Trip To Mexico</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bucket-row">
+                <div class="bucket-col2">
+                    <img src="images/dolomites-hiking2021-3.jpg" alt="Hiking In Dolomites Italy">
+                    <div class="bucket-detail2">
+                        <span class="bucket-heading">Hiking In Dolomites Italy</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="bucket-col1">
+                    <img src="images/things-to-do-in-cape-town-52.jpg" alt="Cape Town">
+                    <div class="bucket-detail1">
+                        <span class="bucket-heading">Vacation In Cape Town</span>
+                        <a href="#" class="bucket-button">View <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Bucket List -->
+        <!-- Blogger -->
+        <div class="blogger">
+            <div class="blogger-bg">
+                <div class="blogger-row">
+                    <div class="blogger-col1">
+                        <div class="blogger-img1">
+                            <img src="images/tape-home.png" alt="tape" class="tape">
+                            <img src="images/blogger.jpg" alt="Blogger" class="img1">
+                            <img src="images/black-removebg-preview.png" alt="Balck Paint" class="heading-bg1">
+                            <span class="blogger-heading">Blogger Resources</span>
+                        </div>
+                        <div class="blogger-details">
+                            <span class="blogger-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium expedita quisquam soluta iusto, fuga incidunt natus labore fugit, dignissimos voluptatum ea voluptate dolorem illo sunt nihil vel fugiat doloremque! Maiores.</span>
+                            <div class="button">
+                                <a href="#" class="blogger-button">Blogging <i class="fas fa-chevron-circle-right"></i></a>
+                                <a href="#" class="blogger-button">Photography <i class="fas fa-chevron-circle-right"></i></a>
+                                <a href="#" class="blogger-button">Freelancing <i class="fas fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blogger-col2">
+                        <img src="images/blogging-resources-stamp.png" alt="Blogger Stamp" class="blogger-stamp">
+                        <div class="blogger-img2"></div>
+                        <img src="images/blogging-resources-2.jpg" alt="Blogger Resources" class="img2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Blogger -->
+        <!-- Lightroom Presets -->
+        <div class="lightroom">
+            <div class="lightroom-row">
+                <div class="lightroom-col1">
+                    <div class="lightroom-img1">
+                        <img src="images/italian-alps-2021-1-uai-750x1000.jpg" alt="Italian Alps">
+                    </div>
+                </div>
+                <div class="lightroom-col2">
+                    <div class="lightroom-img2">
+                        <img src="images/tape-home.png" alt="tape" class="tape">
+                        <img src="images/circular-cotswolds-hikes-2021-uai-750x1000.jpg" alt="Circular Cotswolds" class="img1">
+                        <img src="images/lightroom.jpg" alt="Standing Infron of Sea" class="img2">
+                    </div>
+                    <div class="lightroom-details">
+                        <img src="images/black-removebg-preview.png" alt="black paint brush" class="heading-bg1">
+                        <span class="lightroom-heading">Lightroom Presets</span>
+                        <span class="lightroom-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta obcaecati voluptatibus illum nulla unde doloribus veritatis ipsum error eaque. Eaque nihil repudiandae quis non sit dicta neque reprehenderit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iusto autem modi, doloremque esse pariatur officiis necessitatibus.</span>
+                        <a href="#" class="lightroom-button">Shop Now <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Lightroom Presets -->
+        <!-- Subscribe -->
+        <div class="subscribe">
+            <div class="subscribe-row">
+                <div class="subscribe-col1">
+                    <div class="subscribe-form">
+                        <span class="form-heading">Get Our FREE Carry-On Packing Guide</span>
+                        <form action="#">
+                            <input type="text" name="fname" id="" placeholder="FIRST NAME" required>
+                            <input type="email" name="email" id="" placeholder="EMAIL ADDRESS" required>
+                            <input type="submit" value="SIGN UP">
+                        </form>
+                    </div>
+                </div>
+                <div class="subscribe-col2">
+                    <div class="subscribe-details">
+                        <img src="images/black-removebg-preview.png" alt="Balck Paint" class="heading-bg1">
+                        <span class="subscribe-heading">Subscribe</span>
+                        <span class="subscribe-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet eum labore illo error ipsam quia excepturi totam, odio architecto nobis, reiciendis illum, dolor quis quam ullam magni eveniet modi!</span>
+                    </div>
+                    <div class="subscribe-img">
+                        <img src="images/aboutUs.jpeg" alt="Subscribe!">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Subscribe -->
+        <!-- Instagram -->
+        <div class="insta">
+            <img src="images/black-removebg-preview.png" alt="Balck Paint" class="heading-bg1">
+            <span class="insta-heading">Instagram</span>
+            <div class="insta-row">
+                <div class="insta-col">
+                    <img src="images/darwenwater.jpg" alt="DarwenWater">
+                </div>
+                <div class="insta-col">
+                    <img src="images/honisterPass.jpg" alt="Honister Pass">
+                </div>
+                <div class="insta-col">
+                    <img src="images/keswick.jpg" alt="Keswick">
+                </div>
+                <div class="insta-col">
+                    <img src="images/newlandsvalley.jpg" alt="New Lands Valley">
+                </div>
+                <div class="insta-col">
+                    <img src="images/stone circle.jpg" alt="Stone Circle">
+                </div>
+            </div>
+            <a href="#" class="insta-button"><i class="fab fa-instagram"></i> Follow On Instagram</a>
+        </div>
+        <!-- End Of Instagram -->
+    </main>
+    <footer>
+        <div class="footer1">
+            <div class="footer-row">
+                <div class="footer-col1">
+                    <span class="footer-heading">Quick Links</span>
+                    <ul class="quick-links">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Blog</li></a>
+                        <a href="#"><li>Lightroom Presets</li></a>
+                        <li>Contact</li>
+                        <ul>
+                            <a href="#"><li>Work With Us</li></a>
+                            <a href="#"><li>Become A Guest Author</li></a>
+                            <a href="#"><li>Request A Blog Post</li></a>
+                        </ul>
+                        <a href="#"><li>FAQ</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col1">
+                    <span class="footer-subscribe">Join over 1 million people and get exclusive travel tips, giveaways and more!</span>
+                    <div class="footer-form">
+                        <form action="#">
+                            <input type="text" name="fname" id="" placeholder="FIRST NAME" required>
+                            <input type="email" name="email" id="" placeholder="EMAIL ADDRESS" required>
+                            <input type="submit" value="SIGN UP">
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <span class="footer-intro">Nature, Photography<br>And Storytelling,</span><span class="footer-intro2">All In One Place</span>
+                    <img src="images/logo1.png" alt="Logo" class="footer-logo">
+                    <img src="images/stamp1-removebg-preview.png" alt="Stamp" class="footer-stamp">
+                    <span class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <span>Copyright &copy; 2021 TRAVEL | All Rights Reserved</span>
+        </div>
+    </footer>
+    <script src="js/style.js"></script>
+</body>
+</html>
