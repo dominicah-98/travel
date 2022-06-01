@@ -27,7 +27,7 @@ function upDate(previewPic){
     }
 }
 function unDo(){
-    document.getElementById('bg-img').src = "images/uk-travel-blog-awr-1.jpg";
+    document.getElementById('bg-img').src = "../images/uk-travel-blog-awr-1.jpg";
     document.getElementById('display-photo').style.backgroundImage = "url('../images/uk-travel-blog-awr-1.jpg')";
     document.getElementById('demo-details').style.display = "block";
     document.getElementById('photo-heading').style.display = "none";
